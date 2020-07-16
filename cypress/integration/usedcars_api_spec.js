@@ -26,7 +26,7 @@ describe('Trade me used cars category api tests', () => {
       .its('body.Subcategories')
       .then((carCategories) => {
           let hispanoCategory = carCategories.find(category => category.Name === "Hispano Suiza");                   
-          expect(hispanoCategory).to.equal(undefined);  //no Hispano Suiza found          
+          expect(hispanoCategory).to.be.undefined; //no Hispano Suiza found                 
       });
     });
     
