@@ -1,11 +1,1 @@
-{
-  "scripts": {
-    "test": "npx cypress run"
-  },
-  "devDependencies": {
-    "cypress-cucumber-preprocessor": "^2.5.3"
-  },
-  "dependencies": {
-    "mocha": "^6.2.2"
-  }
-}
+{}
